@@ -1,0 +1,221 @@
+/* ------------ setup ------------- */
+/* ------------ mobil ------------- */
+@media (max-width: 600px) {
+  /* ------------ global ------------- */
+  section {
+    padding: 30px 3%;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  /* ------------ uvod ------------- */
+  #main-nav {
+    top: 0;
+    text-align: left;
+    background-color: #2D2C2A;
+  }
+  #main-nav ul {
+    display: none;
+  }
+  #main-nav a {
+    padding: 10px 10px;
+  }
+  .nav-logo img {
+    opacity: 1;
+  }
+  .nav-fix {
+    position: static;
+  }
+  #nav-menu {
+    display: block;
+  }
+  #uvod {
+    background-image: url("../images/foto-hero-mobile.jpg");
+    background-position: 60% 0;
+    height: 70vh;
+    background-color: #2D2C2A;
+    margin-bottom: calc(30vh - 90px);
+    margin-top: 90px;
+  }
+  .title {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin: 0 !important;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: linear-gradient(to top, #2D2C2A 60%, transparent);
+  }
+  .title img {
+    display: none;
+  }
+  .title .btn {
+    display: none;
+  }
+  .title h2 {
+    font-size: 24px;
+    padding: 5px 0;
+    font-weight: normal;
+  }
+  /* ------------ sluzby ------------- */
+  #sluzby {
+    background-image: linear-gradient(to left, #FFF9EF, rgba(255, 249, 239, 0.95) 50%, rgba(255, 249, 239, 0.8)), url("../images/bg-sluzby.jpg");
+  }
+  .sluzby-nav a {
+    width: 100%;
+  }
+  /* ------------ kontakt ------------- */
+  .kontakty li {
+    font-size: 20px;
+  }
+  .break-mobile {
+    display: inline;
+  }
+  .mobile-nav li {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 600px) {
+  .tel-link {
+    color: #2D2C2A;
+    font-weight: normal;
+    pointer-events: none;
+  }
+}
+
+@media (max-width: 600px) and (min-height: 595px) {
+  .title {
+    padding-top: 60px;
+    background: linear-gradient(to top, #2D2C2A 70%, transparent);
+  }
+}
+
+@media (max-width: 600px) and (min-height: 735px) {
+  .title {
+    padding-top: 80px;
+    background: linear-gradient(to top, #2D2C2A 70%, transparent);
+  }
+}
+
+/* ------------ nav fix ------------- */
+@media (max-width: 768px) {
+  nav a {
+    padding: 5px 13px;
+  }
+  /* ------------ reseni ------------- */
+  #reseni h2 {
+    text-align: left;
+    padding-bottom: 30px;
+  }
+  .reseni-mobile {
+    text-align: right;
+    vertical-align: bottom;
+    padding-right: 15px;
+    margin-top: 2em;
+    font-style: italic;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  /* ------------ hide table ------------- */
+  .reseni-table th {
+    display: none;
+  }
+  .reseni-table td {
+    display: none;
+    border-left: 1px solid rgba(45, 44, 42, 0.3);
+  }
+  .reseni-table th:first-of-type,
+  .reseni-table td:first-of-type {
+    display: block;
+    width: 100%;
+  }
+  .reseni-table tr:last-of-type td {
+    display: none;
+  }
+  #reseni > h2 {
+    display: none;
+  }
+  .reseni-table h2 {
+    display: block;
+    margin-bottom: -35px;
+  }
+  .reseni-table div {
+    min-width: auto !important;
+    padding-right: 5px;
+  }
+  .reseni-table td:first-of-type img {
+    height: 1.5em;
+    padding-right: 5px;
+  }
+}
+
+@media (max-width: 900px) {
+  nav li a {
+    font-size: 18px;
+  }
+  .nav-logo {
+    margin-right: 5%;
+    padding-top: 15px;
+    margin-top: 5px;
+  }
+  .nav-logo h1 {
+    font-size: 24px;
+  }
+  .nav-logo h1 span {
+    font-size: 18px;
+  }
+  .nav-logo img {
+    height: 50px;
+  }
+  .title {
+    margin: 10vh 0 0 0 !important;
+  }
+  .title h2 {
+    font-size: 20px;
+  }
+  .title img {
+    width: 60px;
+  }
+  .title .btn {
+    width: 125px;
+    height: 45px;
+    padding-top: 9px;
+  }
+  /* ------------ reference ------------- */
+  #reference h2 {
+    padding-bottom: 20px;
+  }
+  .ref-box {
+    justify-content: center;
+  }
+  .ref-box img {
+    width: 80%;
+  }
+  .ref-popis {
+    margin-left: 6%;
+  }
+  /* ------------ reference-modal ------------- */
+  .showcase {
+    padding: 30px 3% 0 3%;
+  }
+  .showcase-text {
+    order: 1;
+  }
+  .showcase-images {
+    padding-top: 20px;
+    width: 100%;
+    order: 2;
+  }
+}
+
+/* ------------ tablet ------------- */
+@media (max-width: 1024px) {
+  .title {
+    margin: 10vh 0 0 5vh;
+  }
+}
