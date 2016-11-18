@@ -1,5 +1,5 @@
-/* ------------ setup ------------- */
-/* ------------ mobil ------------- */
+/* ------------ colors ------------- */
+/* ------------ MOBILE ------------- */
 @media (max-width: 600px) {
   /* ------------ global ------------- */
   section {
@@ -11,7 +11,7 @@
   h3 {
     font-size: 24px;
   }
-  /* ------------ uvod ------------- */
+  /* ------------ nav ------------- */
   #main-nav {
     top: 0;
     text-align: left;
@@ -21,10 +21,11 @@
     display: none;
   }
   #main-nav a {
-    padding: 10px 10px;
+    padding: 12px 10px;
   }
   .nav-logo img {
     opacity: 1;
+    padding-left: 5px;
   }
   .nav-fix {
     position: static;
@@ -32,9 +33,10 @@
   #nav-menu {
     display: block;
   }
+  /* ------------ uvod ------------- */
   #uvod {
     background-image: url("../images/foto-hero-mobile.jpg");
-    background-position: 60% 0;
+    background-position: 65% 0;
     height: 70vh;
     background-color: #2D2C2A;
     margin-bottom: calc(30vh - 90px);
@@ -79,6 +81,7 @@
   }
 }
 
+/* ------------ kontakt tel link ------------- */
 @media (min-width: 600px) {
   .tel-link {
     color: #2D2C2A;
@@ -87,6 +90,7 @@
   }
 }
 
+/* ------------ uvod portrait ------------- */
 @media (max-width: 600px) and (min-height: 595px) {
   .title {
     padding-top: 60px;
@@ -101,8 +105,9 @@
   }
 }
 
-/* ------------ nav fix ------------- */
+/* ------------ TABLET ------------- */
 @media (max-width: 768px) {
+  /* ------------ nav condensed ------------- */
   nav a {
     padding: 5px 13px;
   }
@@ -155,6 +160,7 @@
 }
 
 @media (max-width: 900px) {
+  /* ------------ nav small text ------------- */
   nav li a {
     font-size: 18px;
   }
@@ -194,7 +200,7 @@
     justify-content: center;
   }
   .ref-box img {
-    width: 80%;
+    width: 90%;
   }
   .ref-popis {
     margin-left: 6%;
@@ -213,7 +219,7 @@
   }
 }
 
-/* ------------ tablet ------------- */
+/* ------------ title margin ------------- */
 @media (max-width: 1024px) {
   .title {
     margin: 10vh 0 0 5vh;

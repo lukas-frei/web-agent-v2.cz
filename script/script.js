@@ -170,7 +170,7 @@ $(document).ready(function(){
   // scrolldepth tracking
   jQuery(function() {
     jQuery.scrollDepth({
-      elements: ['#sluzby', '#projekty', '#konzultace', '#cenik', '#kontakt', '#omne', 'footer'],
+      elements: ['#sluzby', '#reference', '#reseni', '#kontakt', 'footer'],
       percentage: false,
       pixelDepth: false,
       nonInteraction: false
