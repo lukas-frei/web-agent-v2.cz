@@ -149,7 +149,9 @@ a:hover {
 nav {
   width: 100%;
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
   height: 90px;
   background: rgba(0, 0, 0, 0.33);
   font-size: 24px;
@@ -233,6 +235,7 @@ nav a.active {
 
 /* ------------ HEADER ------------- */
 #uvod {
+  position: relative;
   height: 100vh;
   overflow: hidden;
   background-color: #2D2C2A;
