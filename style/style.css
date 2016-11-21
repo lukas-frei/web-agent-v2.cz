@@ -347,6 +347,12 @@ nav a.active {
   padding-bottom: 15px;
 }
 
+.ref-current p {
+  margin-top: -5px;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
 .ref-text {
   font-style: italic;
 }
@@ -594,8 +600,9 @@ footer img {
 }
 
 .mobile-nav {
+  display: none;
   list-style: none;
-  font-size: 24px;
+  font-size: 20px;
   padding-bottom: 60px;
 }
 
@@ -614,6 +621,7 @@ footer img {
   transition: .5s color ease-out;
 }
 
-footer p:last-child {
-  padding-top: 20px;
+footer p:first-of-type {
+  padding-bottom: 10px;
+  font-size: 30px;
 }
