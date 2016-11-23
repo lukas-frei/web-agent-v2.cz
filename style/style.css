@@ -350,6 +350,10 @@ nav a.active {
   padding-bottom: 15px;
 }
 
+.ref-popis p:last-of-type {
+  padding-bottom: 20px;
+}
+
 .ref-current p {
   margin-top: -5px;
   font-size: 20px;
@@ -362,7 +366,6 @@ nav a.active {
 
 .ref-podpis {
   font-weight: bold;
-  padding-bottom: 20px;
 }
 
 /* ------------ PORTFOLIO-DETAIL ------------- */
