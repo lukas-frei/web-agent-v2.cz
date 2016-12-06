@@ -544,13 +544,13 @@ nav a.active {
 
 .reseni-table tr:nth-child(4) > td:first-of-type,
 .reseni-table tr:nth-child(5) > td:first-of-type {
-  background-color: #FFF9EF;
+  background-color: #FEE8C6;
 }
 
 .reseni-table tr:nth-child(6) > td:first-of-type,
 .reseni-table tr:nth-child(7) > td:first-of-type,
 .reseni-table tr:nth-child(8) > td:first-of-type {
-  background-color: #FEE8C6;
+  background-color: #FFF9EF;
 }
 
 .reseni-mobile {
